@@ -1,1 +1,9 @@
+reviews:
+  profile: thorough  # options: chill, balanced, thorough
+  auto_review:
+    enabled: true    # automatically reviews PRs
+  files:
+    exclude:
+      - "docs/**"
+      - "*.md"
 
